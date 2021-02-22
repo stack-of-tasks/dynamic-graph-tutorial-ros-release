@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
 <package format="3">
   <name>dynamic-graph-tutorial</name>
-  <version>1.2.2</version>
+  <version>1.3.2</version>
   <description>
     Dynamic graph tutorial
   </description>
-  <maintainer email="ostasse@laas.fr">Olivier Stasse</maintainer>
+  <maintainer email="guilhem.saurel@laas.fr">Guilhem Saurel</maintainer>
   <license>BSD</license>
 
   <url>http://github.com/stack-of-tasks/dynamic-graph-tutorial</url>
