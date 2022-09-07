@@ -14,10 +14,10 @@ def build_graph():
     b = dgt.FeedbackController("K")
 
     # plug signals
-    stateOut = a.signal('state')
-    forceIn = a.signal('force')
-    stateIn = b.signal('state')
-    forceOut = b.signal('force')
+    stateOut = a.signal("state")
+    forceIn = a.signal("force")
+    stateIn = b.signal("state")
+    forceOut = b.signal("force")
 
     dg.plug(stateOut, stateIn)
     dg.plug(forceOut, forceIn)
@@ -26,15 +26,12 @@ def build_graph():
     s = stateOut
     f = forceIn
 
-    s.value = (0.0, 0.1, 0.0, 0.0)
+    s.value = np.array((0.0, 0.1, 0.0, 0.0))
 
-    gain = ((
-        0.0,
-        27.0,
-        0.001,
-        0.001,
-    ), )
-    b.setGain(gain, )
+    gain = np.array((0.0, 27.0, 0.001, 0.001))
+    b.setGain(
+        gain,
+    )
 
     return s, f, a
 
@@ -77,5 +74,5 @@ def play(nbSteps):
     pl.show()
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     play(100)
