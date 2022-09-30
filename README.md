@@ -1,3 +1,26 @@
+## dynamic-graph-tutorial (noetic) - 1.3.5-2
+
+The packages in the `dynamic-graph-tutorial` repository were released into the `noetic` distro by running `/usr/bin/bloom-release dynamic-graph-tutorial --rosdistro noetic` on `Fri, 30 Sep 2022 15:05:48 -0000`
+
+The `dynamic-graph-tutorial` package was released.
+
+Version of package(s) in repository `dynamic-graph-tutorial`:
+
+- upstream repository: https://github.com/stack-of-tasks/dynamic-graph-tutorial.git
+- release repository: https://github.com/stack-of-tasks/dynamic-graph-tutorial-ros-release.git
+- rosdistro version: `1.3.5-1`
+- old version: `1.3.5-1`
+- new version: `1.3.5-2`
+
+Versions of tools used:
+
+- bloom version: `0.11.2`
+- catkin_pkg version: `0.5.2`
+- rosdep version: `0.22.1`
+- rosdistro version: `0.9.0`
+- vcstools version: `0.1.42`
+
+
 ## dynamic-graph-tutorial (noetic) - 1.3.5-1
 
 The packages in the `dynamic-graph-tutorial` repository were released into the `noetic` distro by running `/usr/bin/bloom-release dynamic-graph-tutorial --rosdistro noetic` on `Wed, 07 Sep 2022 12:41:54 -0000`
