@@ -36,7 +36,6 @@ if(BUILD_TESTING)
 endif(BUILD_TESTING)
 
 if(BUILD_PYTHON_INTERFACE)
-  set(PYTHON_EXECUTABLE "/usr/bin/python3")
   add_project_dependency(dynamic-graph-python 4.0.6 REQUIRED)
 endif(BUILD_PYTHON_INTERFACE)
 
