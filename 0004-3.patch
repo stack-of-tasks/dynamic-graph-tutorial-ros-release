@@ -1,0 +1,25 @@
+From 6bdf2789925506366c67676d1f6f15db926b0b8e Mon Sep 17 00:00:00 2001
+From: Guilhem Saurel <guilhem.saurel@laas.fr>
+Date: Tue, 4 Oct 2022 10:26:19 +0200
+Subject: [PATCH 4/4] 3
+
+---
+ CMakeLists.txt | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index cad3d58..7f96a01 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -36,7 +36,7 @@ if(BUILD_TESTING)
+ endif(BUILD_TESTING)
+ 
+ if(BUILD_PYTHON_INTERFACE)
+-  set(PYTHON_EXECUTABLE "/usr/bin/python")
++  set(PYTHON_EXECUTABLE "/usr/bin/python3")
+   add_project_dependency(dynamic-graph-python 4.0.6 REQUIRED)
+ endif(BUILD_PYTHON_INTERFACE)
+ 
+-- 
+2.25.1
+

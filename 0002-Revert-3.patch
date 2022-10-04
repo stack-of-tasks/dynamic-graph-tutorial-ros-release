@@ -1,0 +1,26 @@
+From 6f85d8c7bf3e8da60f798c5ee8cfb165fa526b30 Mon Sep 17 00:00:00 2001
+From: Guilhem Saurel <guilhem.saurel@laas.fr>
+Date: Tue, 4 Oct 2022 10:25:42 +0200
+Subject: [PATCH 2/4] Revert "3"
+
+This reverts commit 6ca096542ad9f7a9eb30c4a5cdc0e2983527d336.
+---
+ CMakeLists.txt | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index 7f96a01..cad3d58 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -36,7 +36,7 @@ if(BUILD_TESTING)
+ endif(BUILD_TESTING)
+ 
+ if(BUILD_PYTHON_INTERFACE)
+-  set(PYTHON_EXECUTABLE "/usr/bin/python3")
++  set(PYTHON_EXECUTABLE "/usr/bin/python")
+   add_project_dependency(dynamic-graph-python 4.0.6 REQUIRED)
+ endif(BUILD_PYTHON_INTERFACE)
+ 
+-- 
+2.25.1
+
